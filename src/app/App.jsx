@@ -1,0 +1,6 @@
+import React from "react";
+import UsersPage from "../pages/UsersPage.jsx";
+
+export default function App() {
+    return <UsersPage />;
+}

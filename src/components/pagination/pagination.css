@@ -1,0 +1,30 @@
+.pagination {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.pg-btn {
+    background: #1c1c1c;
+    border: none;
+    color: #d1d1d1;
+    padding: 10px 14px;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.pg-btn.active {
+    background: #ff6a00;
+    color: #ffffff;
+}
+
+.pg-ellipse {
+    background: transparent;
+    border: none;
+    color: #777;
+    padding: 10px 8px;
+    font-size: 14px;
+}
