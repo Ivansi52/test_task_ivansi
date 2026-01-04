@@ -1,0 +1,25 @@
+.icon-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 12px;
+    width: 48px;
+    height: 48px;
+    background: #18191A;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #FAFCFF;
+    transition: background-color 0.2s ease;
+}
+
+.icon-button:hover {
+    background: #232426;
+}
+
+.icon-button svg {
+    width: 24px;
+    height: 24px;
+}
+
