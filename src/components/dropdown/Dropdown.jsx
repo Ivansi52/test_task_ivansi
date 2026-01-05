@@ -15,7 +15,6 @@ export default function Dropdown({ initial = "Дизайнер"}) {
 
     useEffect(() => {
         function onDoc(e) {
-            if (ref.current & !ref.current.contains(e.target)) {
                 setOpen(false);
             }
         }
