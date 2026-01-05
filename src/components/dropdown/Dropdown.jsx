@@ -15,7 +15,7 @@ export default function Dropdown({ initial = "Дизайнер"}) {
 
     useEffect(() => {
         function onDoc(e) {
-            if (ref.current & !ref.current.contains(e.target)) {
+            if (ref.current && !ref.current.contains(e.target)) {
                 setOpen(false);
             }
         }
@@ -34,7 +34,7 @@ export default function Dropdown({ initial = "Дизайнер"}) {
                     {OPTIONS.map((opt) => (
                         <li
                             key={opt}
-                            className={`dropdown-item${opt === selected ? "selected" : ""}`}
+                            className={`dropdown-item${opt === selected ? " selected" : ""}`}
                             onClick={() => {
                                 setSelected(opt);
                                 setOpen(false);
